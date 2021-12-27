@@ -43,8 +43,8 @@
                             <p class="action-right-text">I am a ...</p>
                         </div>
                         <div class="action-1-buttons">
-                            <button class="buttons-decoration-1">Student</button>
-                            <button class="buttons-decoration-1">Parent</button>
+                            <button class="buttons-decoration-1" id="studentButton">Student</button>
+                            <button class="buttons-decoration-1" id="parentButton">Parent</button>
                         </div>
                         <div class="action-2">
                             <div class="action-grey-box"></div>
@@ -52,9 +52,9 @@
                             <p class="action-right-text">I am interested in ...</p>
                         </div>
                         <div class="action-2-buttons">
-                            <button class="buttons-decoration-2">Personal Diagnostic</button>
-                            <button class="buttons-decoration-2">Best-fit University Match</button>
-                            <button class="buttons-decoration-2">Application Roadmap</button>
+                            <button class="buttons-decoration-2" id="personalDiagnostic">Personal Diagnostic</button>
+                            <button class="buttons-decoration-2" id="bestFitUniversityMatch">Best-fit University Match</button>
+                            <button class="buttons-decoration-2" id="applicationRoadmap">Application Roadmap</button>
                         </div>
                         <button id="buttons-full-package">Full-package</button>
                         <div class="action-3">
@@ -74,8 +74,8 @@
                     <input class="action-input">
                 </div>
                 <div class="privacy-policy">
-                    <input type="checkbox" id="checkbox-toggle" />
-                    <p>I agree to the privacy policy.</p>
+                    <input type="checkbox"/><span id="checkbox-toggle"></span><span id="checkmark"></span>
+                    <p id="privacy-text">I agree to the privacy policy.</p>
                 </div>
                 <div class="submit-div">
                     <button id="submit">Submit</button>
