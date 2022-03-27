@@ -223,7 +223,8 @@ a {
 #success-text {
     margin-top: 90px;
     font-family: Metropolis-regular;
-    font-size: 16px;
+    font-size: 24px;
+    line-height: 40px;
     color: rgba(0, 0, 0, 0.8);
     text-align: center;
 }
@@ -336,20 +337,19 @@ a {
     text-decoration: none;
 }
 
-/* Action Page */
-.frame-action {
-    height: 1200px;
-    width: 100%;
+/* Services Page */
+#frame-services {
     display: flex;
-    justify-content: center;
+    height: 1300px;
+    max-width: 100%;
 }
-.action-left {
+.services-left {
     width: 480px;
     z-index: 1;
     height: 100%;
     background: #1C3454;
 }
-.action-center {
+.services-center {
     position: absolute;
     left: 5%;
     top: 13%;
@@ -365,36 +365,38 @@ a {
     z-index: 2;
     background: #E1930F;
 }
-.action-center-title {
+.services-center-title {
     font-family: Metropolis-bold;
     font-size: 26px;
     color: #fff;
     margin-left: 40px;
     margin-right: 40px;
+    margin-bottom: 0;
 }
-.action-center-subtitle {
+.services-center-subtitle {
     font-family: Metropolis-bold;
     font-size: 18px;
     font-weight: 100;
     color: #fff;
     margin-left: 40px;
     margin-right: 40px;
+    margin-bottom: 0;
 }
-.action-center-text {
+.services-center-text {
     font-family: Metropolis-regular;
     font-size: 14px;
-    line-height: 30px;
+    line-height: 25px;
     color: #fff;
     margin-left: 40px;
     margin-right: 40px;
 }
-.action-right {
+.services-right {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.action-right-title {
+.services-right-title {
     min-width: 500px;
     max-width: 600px;
     margin-top: 13%;
@@ -404,7 +406,7 @@ a {
     font-size: 48px;
     color: #000;
 }
-.action-right-description {
+.services-right-description {
     min-width: 500px;
     max-width: 600px;
     margin-left: 8%;
@@ -573,6 +575,50 @@ a {
     cursor: pointer;
 }
 
+/* Action Page */
+.frame-action {
+    display: flex;
+    height: 920px;
+}
+.action-left {
+    width: 480px;
+    z-index: 1;
+    height: 100%;
+    background: #1C3454;
+}
+.action-center {
+    position: absolute;
+    left: 5%;
+    top: 13%;
+    max-width: 27%;
+    max-height: 750px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    z-index: 2;
+    background: #E1930F;
+}
+#top-action {
+    margin-top: 80px;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.action-title {
+    margin: 0;
+    font-family: Metropolis-bold;
+    font-size: 48px;
+    color: #000;
+}
+.action-text {
+    font-family: Metropolis-regular;
+    font-size: 18px;
+    color: #000;
+}
 
 /* CSS Features and Animations */
 .link-texts:hover {
