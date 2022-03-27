@@ -25,7 +25,7 @@ function backwardImage() {
 prevButton.onclick = backwardImage;
 prevButton.classList.add("hidden");
 
-let totalImages = document.getElementsByClassName("carousel-image").length
+let totalImages = document.getElementsByClassName("carousel-image").length;
 
 function carouselControls() {
     if (imageNum == 0) {
@@ -41,3 +41,36 @@ function carouselControls() {
         nextButton.classList.remove("hidden")
     }
 }
+/*
+let notReady = document.getElementsByClassName("action-grey-box");
+let ready1 = document.getElementById("check-mark-icon-1");
+let ready2 = document.getElementById("check-mark-icon-2");
+let ready3 = document.getElementById("check-mark-icon-3");
+
+function readyToggle() {
+    if (student.onclick) {
+        notReady.classList.add("hidden");
+        ready1.classList.remove("hidden");
+    }
+    else if () {
+
+    }
+}
+
+let student = document.getElementById("studentButton");
+let parent = document.getElementById("parentButton");
+
+let pd = document.getElementById("personalDiagnostic");
+let bfu = document.getElementById("bestFitUniversityMatch");
+let ar = document.getElementById("applicationRoadmap");
+let fullPackage = document.getElementById("buttons-full-package");
+
+function submitInquiry() {
+    if () {
+
+    }
+    else if () {
+
+    }
+}
+*/
